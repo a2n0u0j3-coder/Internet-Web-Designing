@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <label>Confirm Pass:</label>
+        <input type="password" name="confirm_password" required><br><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone"><br><br>
+
+        <label>DOB:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <label>Address:</label>
+        <textarea name="address"></textarea><br><br>
+
+        <label>Subscription:</label>
+        <select name="subscription">
+            <option value="free">Free</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+        </select><br><br>
+
+        <input type="checkbox" name="terms" required> I agree to the Terms & Conditions<br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
